@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCE9B8413D3D6CA00C6A04C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE9B8313D3D6CA00C6A04C /* CoreData.framework */; };
+		4CCE9B8613D3D6CA00C6A04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE9B8513D3D6CA00C6A04C /* Foundation.framework */; };
+		4CCE9B8913D3D6CA00C6A04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE9B8813D3D6CA00C6A04C /* main.m */; };
+		4CCE9B8E13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE9B8C13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CCE9B7D13D3D6CA00C6A04C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CCE9B7F13D3D6CA00C6A04C /* processGoogleTransitFiles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = processGoogleTransitFiles; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCE9B8313D3D6CA00C6A04C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4CCE9B8513D3D6CA00C6A04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CCE9B8813D3D6CA00C6A04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CCE9B8B13D3D6CA00C6A04C /* processGoogleTransitFiles-Prefix.pch */ = {isa = PBXFileReference; path = "processGoogleTransitFiles-Prefix.pch"; sourceTree = "<group>"; };
+		4CCE9B8D13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = processGoogleTransitFiles.xcdatamodel; sourceTree = "<group>"; };
+		4CCE9B8F13D3D6CA00C6A04C /* processGoogleTransitFiles.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = processGoogleTransitFiles.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCE9B7C13D3D6CA00C6A04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCE9B8413D3D6CA00C6A04C /* CoreData.framework in Frameworks */,
+				4CCE9B8613D3D6CA00C6A04C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCE9B7413D3D6CA00C6A04C = {
+			isa = PBXGroup;
+			children = (
+				4CCE9B8713D3D6CA00C6A04C /* processGoogleTransitFiles */,
+				4CCE9B8213D3D6CA00C6A04C /* Frameworks */,
+				4CCE9B8013D3D6CA00C6A04C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCE9B8013D3D6CA00C6A04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE9B7F13D3D6CA00C6A04C /* processGoogleTransitFiles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCE9B8213D3D6CA00C6A04C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE9B8313D3D6CA00C6A04C /* CoreData.framework */,
+				4CCE9B8513D3D6CA00C6A04C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CCE9B8713D3D6CA00C6A04C /* processGoogleTransitFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE9B8813D3D6CA00C6A04C /* main.m */,
+				4CCE9B8F13D3D6CA00C6A04C /* processGoogleTransitFiles.1 */,
+				4CCE9B8C13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld */,
+				4CCE9B8A13D3D6CA00C6A04C /* Supporting Files */,
+			);
+			path = processGoogleTransitFiles;
+			sourceTree = "<group>";
+		};
+		4CCE9B8A13D3D6CA00C6A04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE9B8B13D3D6CA00C6A04C /* processGoogleTransitFiles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCE9B7E13D3D6CA00C6A04C /* processGoogleTransitFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCE9B9213D3D6CA00C6A04C /* Build configuration list for PBXNativeTarget "processGoogleTransitFiles" */;
+			buildPhases = (
+				4CCE9B7B13D3D6CA00C6A04C /* Sources */,
+				4CCE9B7C13D3D6CA00C6A04C /* Frameworks */,
+				4CCE9B7D13D3D6CA00C6A04C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = processGoogleTransitFiles;
+			productName = processGoogleTransitFiles;
+			productReference = 4CCE9B7F13D3D6CA00C6A04C /* processGoogleTransitFiles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCE9B7613D3D6CA00C6A04C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4CCE9B7913D3D6CA00C6A04C /* Build configuration list for PBXProject "processGoogleTransitFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CCE9B7413D3D6CA00C6A04C;
+			productRefGroup = 4CCE9B8013D3D6CA00C6A04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCE9B7E13D3D6CA00C6A04C /* processGoogleTransitFiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCE9B7B13D3D6CA00C6A04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCE9B8913D3D6CA00C6A04C /* main.m in Sources */,
+				4CCE9B8E13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CCE9B9013D3D6CA00C6A04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CCE9B9113D3D6CA00C6A04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CCE9B9313D3D6CA00C6A04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "processGoogleTransitFiles/processGoogleTransitFiles-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CCE9B9413D3D6CA00C6A04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "processGoogleTransitFiles/processGoogleTransitFiles-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCE9B7913D3D6CA00C6A04C /* Build configuration list for PBXProject "processGoogleTransitFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCE9B9013D3D6CA00C6A04C /* Debug */,
+				4CCE9B9113D3D6CA00C6A04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCE9B9213D3D6CA00C6A04C /* Build configuration list for PBXNativeTarget "processGoogleTransitFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCE9B9313D3D6CA00C6A04C /* Debug */,
+				4CCE9B9413D3D6CA00C6A04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CCE9B8C13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CCE9B8D13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodel */,
+			);
+			currentVersion = 4CCE9B8D13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodel */;
+			path = processGoogleTransitFiles.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CCE9B7613D3D6CA00C6A04C /* Project object */;
+}
