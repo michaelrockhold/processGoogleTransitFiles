@@ -10,7 +10,7 @@
 		4CCE9B8413D3D6CA00C6A04C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE9B8313D3D6CA00C6A04C /* CoreData.framework */; };
 		4CCE9B8613D3D6CA00C6A04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE9B8513D3D6CA00C6A04C /* Foundation.framework */; };
 		4CCE9B8913D3D6CA00C6A04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE9B8813D3D6CA00C6A04C /* main.m */; };
-		4CCE9B8E13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE9B8C13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld */; };
+		4CCE9BB813D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE9BB613D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +30,9 @@
 		4CCE9B8313D3D6CA00C6A04C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4CCE9B8513D3D6CA00C6A04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CCE9B8813D3D6CA00C6A04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CCE9B8B13D3D6CA00C6A04C /* processGoogleTransitFiles-Prefix.pch */ = {isa = PBXFileReference; path = "processGoogleTransitFiles-Prefix.pch"; sourceTree = "<group>"; };
-		4CCE9B8D13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = processGoogleTransitFiles.xcdatamodel; sourceTree = "<group>"; };
+		4CCE9B8B13D3D6CA00C6A04C /* processGoogleTransitFiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "processGoogleTransitFiles-Prefix.pch"; sourceTree = "<group>"; };
 		4CCE9B8F13D3D6CA00C6A04C /* processGoogleTransitFiles.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = processGoogleTransitFiles.1; sourceTree = "<group>"; };
+		4CCE9BB713D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = processGoogleTransitFiles.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				4CCE9B8813D3D6CA00C6A04C /* main.m */,
 				4CCE9B8F13D3D6CA00C6A04C /* processGoogleTransitFiles.1 */,
-				4CCE9B8C13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld */,
+				4CCE9BB613D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodeld */,
 				4CCE9B8A13D3D6CA00C6A04C /* Supporting Files */,
 			);
 			path = processGoogleTransitFiles;
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCE9B8913D3D6CA00C6A04C /* main.m in Sources */,
-				4CCE9B8E13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld in Sources */,
+				4CCE9BB813D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,12 +231,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4CCE9B8C13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodeld */ = {
+		4CCE9BB613D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4CCE9B8D13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodel */,
+				4CCE9BB713D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodel */,
 			);
-			currentVersion = 4CCE9B8D13D3D6CA00C6A04C /* processGoogleTransitFiles.xcdatamodel */;
+			currentVersion = 4CCE9BB713D52D9800C6A04C /* processGoogleTransitFiles.xcdatamodel */;
 			path = processGoogleTransitFiles.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
